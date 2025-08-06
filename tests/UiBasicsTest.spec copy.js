@@ -48,14 +48,14 @@ await page.locator(".card-title").last().click();
 })
 
 
-// test('page context  Playwright Test', async ({page})=>
-// {
-//  await page.goto("https://google.com/");
-//   await expect(page).toHaveTitle("Google");
-// console.log(await page.title()
+test('page context  Playwright Test', async ({page})=>
+{
+ await page.goto("https://google.com/");
+  await expect(page).toHaveTitle("Google");
+console.log(await page.title()
 
-// );
-// })
+ );
+ })
 
 
 
